@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Create a New Account</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="First Name" required />
+        <input type="text" placeholder="Last Name" required />
+      </div>
+
+      <div class="form-group">
+        <input type="email" placeholder="Email Address" required />
+        <input type="password" placeholder="Password" required />
+      </div>
+
+      <div class="form-group">
+        <label>Birthday</label>
+        <select>
+          <option>Day</option>
+          <option>1</option>
+          <option>2</option>
+          <!-- Add up to 31 -->
+        </select>
+        <select>
+          <option>Month</option>
+          <option>January</option>
+          <option>February</option>
+          <!-- Add all months -->
+        </select>
+        <select>
+          <option>Year</option>
+          <option>2000</option>
+          <option>2001</option>
+          <!-- Add more years -->
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <label><input type="radio" name="gender" /> Male</label>
+        <label><input type="radio" name="gender" /> Female</label>
+        <label><input type="radio" name="gender" /> Custom</label>
+      </div>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
